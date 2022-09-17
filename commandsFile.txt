@@ -1,0 +1,6 @@
+mov r1, 1
+add r1, 4
+LABEL:
+mov r2, r1
+cmp r1, 7
+jg LABEL:
